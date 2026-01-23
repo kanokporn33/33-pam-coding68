@@ -1,7 +1,25 @@
-print("pammy wake - sleep")
-print("1 = ใส่เวลานอนเพื่อคำนวณหาเวลาที่ตื่นแล้วสดชื่นที่สุดค่ะ")
-print("2 = ใส่เวลาตื่นเพื่อคำนวณหาเวลานอนที่ดีที่สุดค่ะ")
-pam = int(input("กรุณาเลือกโหมดที่ท่านต้องการค่ะ"))
+print("โปรแกรมwake or sleep by pammy")
+print("1 : ใส่เวลานอนเพื่อคำนวณหาเวลาที่ตื่นแล้วจะสดชื่น")
+print("2 : ใส่เวลาที่ต้องการตื่นเพื่อคำนวณหาว่าควรนอนตอนไหน")
 
-time = float(input("กรอกเวลาได้เลยค่ะ"))
+choice = int(input("เลือก (1 หรือ 2): "))
+
+time = float(input("กรอกเวลา (เช่น 22.30 = 22:30): "))
+
+print("\nผลลัพธ์")
+
+for i in range(4, 7):   # 4–6 รอบ
+    if choice == 1:
+        result = time + (i * 1.5)   # หาตื่น
+        text = "ตื่น"
+    else:
+        result = time - (i * 1.5)   # หานอน
+        text = "นอน"
+
+    if result < 0:
+        result += 24
+    if result >= 24:
+        result -= 24
+
+    print(f"{i} รอบ : ควร{text}ประมาณ {result:.2f} น.")
 
