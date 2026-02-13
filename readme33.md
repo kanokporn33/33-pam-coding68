@@ -17,9 +17,12 @@
 * **Library/Framework:** Tkinter
 * **Design Tool:** Canva
 
-## 📸 4. ตัวอย่างการใช้งาน (Screenshots)
-(ให้นักเรียนใส่รูปภาพหน้าจอโปรแกรมที่ออกแบบไว้ในขั้น UI Mockup หรือตอนเสร็จแล้ว)
-![App Screenshot](ลิงก์รูปภาพของคุณ)
+## 📸 4. ตัวอย่างการใช้งาน
+<img width="753" height="862" alt="Screenshot 2026-02-13 152523" src="https://github.com/user-attachments/assets/dd5044a8-2dc8-4133-8354-fe74812e910b" />
+<img width="640" height="723" alt="Screenshot 2026-02-13 152553" src="https://github.com/user-attachments/assets/b319d6de-815a-4237-adc5-0f2c3a0daaf6" />
+<img width="690" height="346" alt="Screenshot 2026-02-13 152611" src="https://github.com/user-attachments/assets/11c37649-49b6-4bf4-a070-d8e3e7d0f3ea" />
+<img width="1665" height="686" alt="Screenshot 2026-02-13 152821" src="https://github.com/user-attachments/assets/32da91ee-7737-4a3f-bb0a-324eddd00f5b" />
+
 
 ## 💻 5. วิธีการใช้งาน (How to run)
 1. เข้าColab
